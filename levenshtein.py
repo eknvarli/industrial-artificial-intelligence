@@ -68,5 +68,5 @@ kelime_2 = normalize(kelime_2, max_len)
 
 mesafe = LevenshteinMesafesi(kelime_1, kelime_2)
 benzerlik = (max_len - mesafe) / max_len
-print(f'{kelime_1} ve {kelime_2} arasındaki levenshtein mesafesi: {mesafe}')
+print(f'"{kelime_1}" ve "{kelime_2}" arasındaki levenshtein mesafesi: {mesafe}')
 print(f'Benzerlik Oranı: {benzerlik}')
